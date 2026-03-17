@@ -8,7 +8,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-app.config["SECRET_KEY"] = "super-secret-key"
+app.config["SECRET_KEY"] = "0x375c24f60ec47eefed8df4a72332fbf4329a53'"
 app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
